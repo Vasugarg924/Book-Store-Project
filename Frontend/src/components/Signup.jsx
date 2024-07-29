@@ -32,9 +32,9 @@ function Signup() {
     };
   return (
     <>
-      <div className='flex h-screen items-center justify-center '>
+      <div className='flex h-screen items-center justify-center'>
           <div  className="w-[600px]">
-              <div className="modal-box dark:bg-slate-600 dark:text-white">
+              <div className="modal-box dark:bg-slate-600 dark:text-white flex items-center justify-center">
                   <form method="dialog" onSubmit={handleSubmit(onSubmit)}>
                       {/* if there is a button in form, it will close the modal */}
                       <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 dark:bg-slate-600 dark:text-white" onClick={()=>window.location.href="/"}>✕</button>
@@ -65,12 +65,12 @@ function Signup() {
                   {/* Button */}
                   <div className='flex justify-around mt-4'>
                       <button className='bg-pink-500 text-white rounded-md px-3 py-1 hover:bg-pink-700 duration-700'>Signup</button>
-                          <p className='text-xl'>Have an account?{" "}
+                          {/* <p className='text-xl'>Have an account?{" "}
                               <button className="underline text-blue-500 cursor-pointer" onClick={(()=>document.getElementById("my_modal_3").showModal())}>
                                   Login
                               </button>{" "}
                               <Login/>
-                          </p>
+                          </p> */}
                           
                   </div>
                   </form>
