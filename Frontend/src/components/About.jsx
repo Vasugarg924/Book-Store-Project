@@ -14,7 +14,7 @@ function About() {
             </div>
           </div>
           <p className='text-xl font-semibold mx-auto max-w-md text-justify'>
-          Welcome to my website! My name is Vasu Garg, and I am currently a student at Jaypee Institute of Information Technology. Born on January 12, 2004, I have designed this site for practising my skills. <span className='flex justify-center'><br />Thank you for visiting!</span>
+            Welcome to my website! My name is Vasu Garg, and I am currently a student at Jaypee Institute of Information Technology, Pursuing  B.Tech. I designed this website to practice my skills. <span className='flex justify-center'><br />Thank you for visiting!</span>
           </p>
 
         </div>
